@@ -1,0 +1,5 @@
+pandas
+matplotlib
+schedule
+pyttsx3
+pywhatkit
