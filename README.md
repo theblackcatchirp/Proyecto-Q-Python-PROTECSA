@@ -1,6 +1,6 @@
-# Proyecto: asistente de laboratorio para Químicos 
+# Proyecto: asistente de laboratorio para Químicos 🧪
 
-## 🐍 Ejecución e instalación del programa
+## ⚗️ Ejecución e instalación del programa
 
 ### 📂 Requisitos
 - Python 3.x: https://www.python.org/downloads/
