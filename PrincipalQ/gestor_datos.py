@@ -32,7 +32,7 @@ class GestorExperimentos:
             return pd.DataFrame(columns=['ID', 'Descripcion', 'Fecha_Limite', 'Estado'])
 
     def guardar_datos_exp(self): # Guarda los datos de experimentos
-        self.df_experimentos.to_csv(self.experimentos_path, index=False)
+        self.df.to_csv(self.experimentos_path, index=False)
         print("Datos de experimentos guardados")
     
     def guardar_datos_tareas(self): # Guarda los datos de tareas
@@ -56,7 +56,7 @@ class GestorExperimentos:
 
         # Agrega la nueva fila
         self.df = pd.concat([self.df, pd.DataFrame([nuevo_experimento])], ignore_index=True)
-        self.guardar_datos()
+        self.guardar_datos_exp()
         print(f"Experimento '{nombre}' agregado con éxito.")
     
      # Función para agregar tareas
